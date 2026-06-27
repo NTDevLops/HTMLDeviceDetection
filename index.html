@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Detection</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #222;
+            padding: 25px;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 0 10px rgba(255,255,255,.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        span {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Device Information</h2>
+
+    <p><strong>Operating System:</strong> <span id="os"></span></p>
+    <p><strong>Device Type:</strong> <span id="device"></span></p>
+    <p><strong>Browser:</strong> <span id="browser"></span></p>
+    <p><strong>User Agent:</strong></p>
+    <small id="ua"></small>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
